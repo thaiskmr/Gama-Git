@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow mb-4">
+        <div class="container d-flex">
+
+            <a class="navbar-brand d-flex align-items-center" asp-area="" asp-page="/Index">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-window-sidebar mr-2" viewBox="0 0 16 16">
+                    <path d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                    <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z" />
+                </svg>
+
+                Gerenciador de Estoque
+            </a>
+
+            <!-- Menu Hamburger -->
+            <button class="navbar-toggler bg-light text-dark" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container collapse navbar-collapse d-sm-inline-flex">
+                <ul class="navbar-nav flex-grow-1 justify-content-center ml-5 mr-3">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Index">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Cadastro">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-page="/Privacy">Controle</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Procurar</button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+</head>
+  <body>
+
+<div class="form-group d-flex justify-content-center">
+
+
+<div class="container col-8">
+    
+    <div class="card shadow h-100 py-2">
+        <div class="card-body">
+            
+            <form class="mx-2" action="index.html">
+                <div class="row my-2">
+                    <div class="col">
+
+    <form action=""  method="POST" name="formulario" > 
+        <h1 class="h3 col-md-6 offset-md-4 font-weight-normal">Gerenciador de Estoque</h1>
+        <div class="form-group">
+            <div class="   col-md-6 offset-md-3">
+                <input type="name" class="form-control" id="inputname" aria-describedby="name_user" placeholder="Nome de Usuário"> 
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-6 offset-md-3 ">
+                <input type="password" class="form-control" id="InputPassword1" placeholder="Senha">
+            </div>
+        </div>      
+
+        <div class="form-group">
+            <div class="col-md-6 offset-md-3">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </form> 
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
